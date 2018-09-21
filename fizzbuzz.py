@@ -45,11 +45,17 @@ Fizz
 Buzz
 """
 number = int(input("How many numbers shall we print? "))
-mult1 = int(input("For multiples of what number shall we print 'Fizz'? "))
-mult2 = int(input("For multiples of what number shall we print 'Buzz'? "))
+multone = int(input("For multiples of what number shall we print 'Fizz'? "))
+multtwo = int(input("For multiples of what number shall we print 'Buzz'? "))
 for i in range(1,number+1):
-    print(i)
-
+    if i % multone == 0 and i % multtwo ==0:
+        print('FizzBuzz')
+    if i % multone == 0:
+        print('Fizz')
+    elif i % multtwo == 0:
+        print('Buzz')
+    else:
+        print(i)
 
 
 
