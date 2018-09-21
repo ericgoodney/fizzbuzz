@@ -50,7 +50,7 @@ multtwo = int(input("For multiples of what number shall we print 'Buzz'? "))
 for i in range(1,number+1):
     if i % multone == 0 and i % multtwo ==0:
         print('FizzBuzz')
-    if i % multone == 0:
+    elif i % multone == 0:
         print('Fizz')
     elif i % multtwo == 0:
         print('Buzz')
