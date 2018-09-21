@@ -1,7 +1,7 @@
 """
 fizzbuzz.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Eric Goodney
+Credit: Peers and Internet 
 
 Assignment:
 
@@ -44,3 +44,28 @@ Fizz
 Fizz
 Buzz
 """
+number = int(input("How many numbers shall we print? "))
+mult1 = int(input("For multiples of what number shall we print 'Fizz'? "))
+mult2 = int(input("For multiples of what number shall we print 'Buzz'? "))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
